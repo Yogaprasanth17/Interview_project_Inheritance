@@ -6,5 +6,6 @@ public class Constructor {
     }
     public static void main(String[] args){
         Constructor constructor =new Constructor();
+        System.out.println("Your are in Main method");
     }
 }
