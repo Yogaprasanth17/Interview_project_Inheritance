@@ -1,5 +1,6 @@
 package Collections.iterator;
 import java.util.*;
+ // Listiterator
 public class Listiterator {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<Integer>();
