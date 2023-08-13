@@ -1,7 +1,7 @@
 package datastructures;
 
 import java.util.*;
-
+    // Cyclic sort  
 public class Cyclesort {
 
         public static void swap(int[] array,int index,int currentIndex) { 
