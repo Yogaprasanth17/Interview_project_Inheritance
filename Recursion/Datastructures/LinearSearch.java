@@ -1,4 +1,4 @@
-package Recursion.Data_structures;
+package Recursion.Datastructures;
 import java.util.*;
 public class LinearSearch {
 
