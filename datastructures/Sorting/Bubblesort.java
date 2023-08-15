@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Bubblesort {
 
-     private static void bubbleSort(int[] array) {
+     static void bubbleSort(int[] array) {
         boolean poll;
         for (int i = 0; i < array.length; i++) {
                 poll = false;
