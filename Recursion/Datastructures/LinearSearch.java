@@ -14,7 +14,7 @@ public class LinearSearch {
         if(array[index]==target){
             return index;   // Return's the index
         }                                       // (or)
-        return searchNumber(array, target, index+1); // The function call it's self
+        return searchNumber(array, target, index + 1); // The function call it's self
     }
 
     // Main method
