@@ -12,9 +12,9 @@ public class Cyclesort {
     
         public static void cyclicSort(int[] array,int size){
             int index = 0;
-            while (index < size) {
-            int currentIndex = array[index] - 1;
-                if(array[index] != array[currentIndex]) {
+            while (index < size) {                // if the array contains 0 then use currentIndex = array[index] 
+            int currentIndex = array[index] - 1; // use this when the array does't contain 0
+                if(array[index] != array[currentIndex]) {    
                     swap(array, index, currentIndex); 
                 }
                 else {
