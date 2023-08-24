@@ -21,7 +21,7 @@ public class SearchInRotatedSortedArray {
         // i.e index 0 to pivot index contain assending order array 
         // then after the pivot index there will an another sorted array
         // so search between the start and pivot 
-        if(target >= array[0]) {
+        if(array[0] <= target) {
             return binarySearch(array, target, 0, pivot - 1);
         }
         // if the first element in the array is greater than the target then the target lies between the pivot and last element od the array
