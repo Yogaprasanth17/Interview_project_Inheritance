@@ -21,8 +21,8 @@ public class SearchInRotatedSortedArray {
         // i.e index 0 to pivot index contain assending order array 
         // then after the pivot index there will an another sorted array
         // so search between the start and pivot 
-        if(array[0] < target) {
-            return binarySearch(array, target, 0, pivot);
+        if(target >= array[0]) {
+            return binarySearch(array, target, 0, pivot - 1);
         }
         // if the first element in the array is greater than the target then the target lies between the pivot and last element od the array
         return binarySearch(array, target, pivot + 1, array.length - 1);
@@ -38,7 +38,7 @@ public class SearchInRotatedSortedArray {
             if (target < array[mid]) {
                 end = mid - 1;
             }
-            if (target > array[mid]) {
+            else {
                 start = mid + 1;
             }
         }
@@ -65,7 +65,7 @@ public class SearchInRotatedSortedArray {
             else {
                 // check whether the middle element is <= start element
                 // if true move the end because the pivot will lies between the start and mid
-                if (array[start] <= array[mid]) {
+                if (array[mid] <= array[start]) {
                     end = mid - 1;
                 }
                 // if the middle element is > start element then move the start
@@ -80,9 +80,9 @@ public class SearchInRotatedSortedArray {
     // Main method 
     public static void main(String[] args) {
         // array in rotated order
-        int[] array = {4,5,6,7,0,1,2};
+        int[] array = {3,4,5,6,1,2};
         // target element 
-        int target = 4;
+        int target = 3;
         // returning and printing 
         System.out.print(search(array, target));
     }
