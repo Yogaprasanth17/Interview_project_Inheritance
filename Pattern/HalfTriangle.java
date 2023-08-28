@@ -13,6 +13,8 @@ package Pattern;
   1      9    *
 
         here n = 2 * num - 1 
+        * in the first half of the triangle the row and col incress equaly
+        * after "num" col gets decress so = total number of row - row here we get the col count
  */
 
 public class HalfTriangle {
