@@ -6,7 +6,9 @@ import java.util.Arrays;
 public class TwoDArray {
     public static void main(String[] args) {
         int[][] a = {
-    {1,2},{2,2}
+            {1,3,5,7},
+            {10,11,16,20},
+            {23,30,34,60}
        };
         int[] ans = skip(a, 2);
         System.out.println(Arrays.toString(ans));
