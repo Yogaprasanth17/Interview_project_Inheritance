@@ -35,6 +35,13 @@ public class SquareRootBS {
         double icr = 0.1;
         // so run the loop till the precision
         // initialzie root = 0.0 and add with 0.1 
+        /*
+         *  sqrt of 40 = 6.324 
+         *      loop 1 - 6.1 * 6.1 = 36.1
+         *      loop 2 - 6.2 * 6.2 = 36.4
+         *      loop 3 - 6.3 * 6.3 = 36.9 <- but the answer is 
+         *      loop 4 - 6.4 * 6.4 = 40.6 -> loop breaks her (so we subtract with -1)
+         */
         for (int i=0;i<p;i++){
             while(root * root <= num){
                 root += icr;
