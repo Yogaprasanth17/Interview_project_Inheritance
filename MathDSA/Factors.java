@@ -31,6 +31,7 @@ public class Factors {
                 }
             }
         }
+      // the list is printed in reverse order because the least number lies in the last in the list
         for (int i = list.size()-1; i >= 0; i--) {
             System.out.print(list.get(i)+" ");
         }
