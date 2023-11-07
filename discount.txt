@@ -1,0 +1,13 @@
+For example, given the input 
+discount price 
+    10   500 
+    20   1500 
+    17   3400, 
+we can calculate the selling price of each type of furniture as follows:
+
+Type 1: Discount Amount = (10 / 100) * 500 = 50.00, Selling Price = 500.00 - 50.00 = 450.00
+Type 2: Discount Amount = (20 / 100) * 1500 = 300.00, Selling Price = 1500.00 - 300.00 = 1200.00
+Type 3: Discount Amount = (17 / 100) * 3400 = 578.00, Selling Price = 3400.00 - 578.00 = 2822.00
+The total amount required to buy all types of furniture after discount is 450.00 + 1200.00 + 2822.00 = 4472.00.
+
+Therefore, for the given input, the output is 4472.00.
