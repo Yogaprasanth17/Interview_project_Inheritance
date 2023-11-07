@@ -1,0 +1,16 @@
+In Java, the `Character` class provides various predefined methods that can be used to perform operations on characters. Some of the commonly used methods are:
+
+1. `isLetter(char ch)`: Checks whether the specified character is a letter.
+2. `isDigit(char ch)`: Checks whether the specified character is a digit.
+3. `isWhitespace(char ch)`: Checks whether the specified character is a white space.
+4. `isUpperCase(char ch)`: Checks whether the specified character is an uppercase character.
+5. `isLowerCase(char ch)`: Checks whether the specified character is a lowercase character.
+6. `toUpperCase(char ch)`: Converts the specified character to uppercase.
+7. `toLowerCase(char ch)`: Converts the specified character to lowercase.
+8. `isLetterOrDigit(char ch)`: Checks whether the specified character is a letter or a digit.
+9. `isAlphabetic(char ch)`: Checks whether the specified character is alphabetic.
+10. `isUnicodeIdentifierStart(char ch)`: Checks whether the specified character is permissible as the first character in a Java identifier.
+11. `isUnicodeIdentifierPart(char ch)`: Checks whether the specified character is permissible as a character in a Java identifier.
+12. `toString(char c)`: Returns a string representation of the character argument.
+
+These are some commonly used methods in the `Character` class. You can explore the official Java documentation for the complete list of methods provided by the `Character` class, along with their descriptions and use cases.

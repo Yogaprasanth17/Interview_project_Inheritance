@@ -1,5 +1,14 @@
 package Pattern;
 public class NumberPattern {
+
+    /*
+        1 7 12 16 19 21 
+        2 8 13 17 20
+        3 9 14 18
+        4 10 15
+        5 11
+        6
+     */
     public static void main(String[] args) {
         int n = 6;
         int t = 1;

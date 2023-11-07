@@ -22,7 +22,7 @@ public class Factors {
             if(n%i==0){
                 // some times the n/i will be equal to the i to avoid repetation we using the chech here
                 // Eg : n = 36 and there factors are : 1,2,3,4,5,6,9,12,18,36 here n/i = 6 and i = 6 to avoid repetation we use the check here
-                if(n/i==i){
+                if(n/i==i) {
                     System.out.print(i+" ");
                 }
                 else {
