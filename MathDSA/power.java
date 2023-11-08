@@ -10,7 +10,7 @@ public class power {
             if ((power & 1)==1) { // if the bit is 1
                 ans = ans * base; // ans = 1 * 3
             }
-            base = base * base;  // 3 * 3 multiplying the base 
+            base = base * base;  // 3 * 3 multiplying the base (doubling the base everytime)
             power = power >> 1;  // power = 110 >> 1
         }
         System.out.print(ans);
