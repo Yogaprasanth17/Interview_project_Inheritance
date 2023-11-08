@@ -1,0 +1,18 @@
+range format :
+
+	1byte = 8bits
+	
+formula :
+		
+	-2^n-1 to (2^n-1)-1
+
+example :
+
+	n = 1byte also equal to 8bites
+
+	- 2^8-1 to (2^8-1)-1
+	
+	= -128 to 128-1
+	
+	= -128 to 127 // Answer
+	
