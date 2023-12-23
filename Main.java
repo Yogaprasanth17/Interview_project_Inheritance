@@ -12,5 +12,15 @@ public class Main {
         // Integer[] a = list.toArray(new Integer[0]);
 
         // System.out.print(Arrays.toString(a));
+        List<Character> list = new ArrayList<>();
+        list.add('a');
+        list.add('b');
+        list.add('c');
+        list.add('g');
+        list.add('y');
+        Object[] a =  list.toArray();
+        for (int i = 0; i < a.length; i++) {
+            System.out.printf("%c ",a[i]);
+        }
     }
 }
