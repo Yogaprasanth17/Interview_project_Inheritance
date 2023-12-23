@@ -4,9 +4,9 @@ package MathDSA;
 
 public class Gcd {
     public static void main(String[] args) {
-        int x = 2, y = 7; // o/p = 14
+        int x = 10, y = 25; // o/p = 14
         System.out.print(gcdNum(x,y));
-        System.out.print(lcmNum(x,y));
+        // System.out.print(lcmNum(x,y));
     }
 
      static int lcmNum(int x, int y) {
@@ -20,7 +20,7 @@ public class Gcd {
     static int gcdNum(int a,int b) {
         // here b % a and "a" is passed as a parameter because "b" is % by "a" so "a" will become 0 
         if(a == 0) {
-            return b;
+             return b;
         }
         return gcdNum((b%a), a);
     }
